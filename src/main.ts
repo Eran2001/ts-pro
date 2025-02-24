@@ -1,4 +1,7 @@
 import './style.css'
 
-const numbers: number[] = [1, 2, 3];
+const numbers: string[][] = [
+  ["1", "2", "3"],
+  ["1", "2", "3"]
+];
 console.log(numbers);
