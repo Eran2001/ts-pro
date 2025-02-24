@@ -1,7 +1,4 @@
 import './style.css'
 
-const numbers: string[][] = [
-  ["1", "2", "3"],
-  ["1", "2", "3"]
-];
+const numbers: string[][][] = [[["1"]]]
 console.log(numbers);
