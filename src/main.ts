@@ -1,5 +1,5 @@
 import './style.css'
 
-let name: number = "1";
-let newName = name + 12
-console.log(newName);
+let firstNumber: number = 10;
+let secondNumber = firstNumber + 5
+console.log(secondNumber);
