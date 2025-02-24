@@ -2,7 +2,7 @@ import './style.css'
 
 myNew("Era")
 
-function myNew(name: string) {
+function myNew(name: string="Hasa") {
   console.log("Hello " + name);
 }
 
