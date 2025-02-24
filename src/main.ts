@@ -1,5 +1,5 @@
 import './style.css'
 
-let firstNumber: number = 10;
-let secondNumber = firstNumber + 5
+let firstNumber: any = "10";
+let secondNumber: any = firstNumber + 5
 console.log(secondNumber);
