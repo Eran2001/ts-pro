@@ -1,6 +1,6 @@
 import './style.css'
 
-const person: object = {
+const person: {name: string, age: number, isMarried: boolean} = {
   name: "Era",
   age: 23,
   isMarried: false
