@@ -1,9 +1,10 @@
 import './style.css'
 
-myNew("Era")
+console.log(myNew("Era"))
+ 
 
-function myNew(name: string="Hasa") {
-  console.log("Hello " + name);
+function myNew(name: string="Hasa"): string {
+  return "Hello " + name;
 }
 
 const myFunc = (num1: number, num2: number) => {
