@@ -1,5 +1,8 @@
 import './style.css'
 
-let firstNumber: any = "10";
-let secondNumber: any = firstNumber + 5
-console.log(secondNumber);
+const myFunc = (num1: number, num2: number) => {
+  const total = num1 + num2
+  console.log(`${num1} + ${num2} = ${total}`);
+}
+
+myFunc(4, 4)
