@@ -1,4 +1,9 @@
 import './style.css'
 
-const numbers: string[][][] = [[["1"]]]
-console.log(numbers);
+const person: object = {
+  name: "Era",
+  age: 23,
+  isMarried: false
+}
+
+console.log(person);
