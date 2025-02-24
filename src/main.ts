@@ -2,6 +2,7 @@ import './style.css'
 
 myNew()
  
-function myNew(name: string="Hasa"): void {
-  "Hello " + name;
+function myNew(msg: string="Hasa"): never {
+  throw new Error(msg)
+  
 }
