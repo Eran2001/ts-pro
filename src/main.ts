@@ -1,8 +1,4 @@
 import './style.css'
 
-myNew()
- 
-function myNew(msg: string="Hasa"): never {
-  throw new Error(msg)
-  
-}
+const numbers: number[] = [1, 2, 3];
+console.log(numbers);
